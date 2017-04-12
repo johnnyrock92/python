@@ -1,6 +1,5 @@
 print "Program obliczajacy pole"
-
-print "Wybierz figure"
+print "\nWybierz figure"
 print "1. Prostokat"
 print "2. Kolo"
 

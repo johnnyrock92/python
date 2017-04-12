@@ -3,3 +3,4 @@ liczby = []
 while sum(liczby) < 100:
     x = input("Podaj liczbe: ")
     liczby.append(x)
+print sum(liczby)

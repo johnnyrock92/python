@@ -1,7 +1,7 @@
 print "Program obliczajacy pole"
 
 print "Wybierz figure"
-print "1. Prostakat"
+print "1. Prostokat"
 print "2. Kolo"
 
 figura = input("> ")
@@ -15,4 +15,3 @@ else:
     pole = 3.14*(r**2)
 
 print "Pole wynosi %d" % pole
-

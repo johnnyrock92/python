@@ -7,7 +7,8 @@ slownik = {0:'zero',
            6:'szesc',
            7:'siedem',
            8:'osiem',
-           9:'dziewiec'}
+           9:'dziewiec'
+          }
 
 def konwerter(liczba):
     liczba_rozdzielona = map(int,str(liczba))

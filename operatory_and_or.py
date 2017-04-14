@@ -34,3 +34,8 @@ print "Wyjasnienie: 0 and a or b => 0 or b => b"
 print "1 and a or b =", 1 and 'a' or 'b' # zwroci a
 print "Wyjasnienie: 1 and a or b => a or b => a"
 print "---------------------------------------------------------------------"
+
+a = ""
+b = "second"
+print "a = ''\nb = 'second'\n1 and a or b =", 1 and a or b # zwroci wartosc b, czyli second
+print "(1 and [a] or [b])[0] =", (1 and [a] or [b])[0] # zwroci wartosc a, czyli "", poniewaz jest prawda, bo a ma wartosc niepusta poprzez powstanie listy []

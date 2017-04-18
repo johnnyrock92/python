@@ -11,9 +11,11 @@ slownik = {0:'zero',
           }
 
 def konwerter(liczba):
+    lista = []
     liczba_rozdzielona = map(int,str(liczba))
     for i in liczba_rozdzielona:
-        print slownik[i],
+        lista.append(slownik[i])
+    print lista
 
 liczba = input('Podaj dowolna liczbe: ')
 konwerter(liczba)

@@ -56,7 +56,7 @@ def test2(arg2):
 # print globals()['z'], z
 
 # nastepnie sprawdzmy wyniki
-import funkcje_test
+#import funkcje_test
 #
 #funkcje_test.a
 #funkcje_test.b

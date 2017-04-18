@@ -1,4 +1,4 @@
-# filter, map
+# filter, map, reduce
 
 # filter-------------------------------------------------------------------
 def funkcja(x):

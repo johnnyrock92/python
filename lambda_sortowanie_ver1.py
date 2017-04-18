@@ -14,8 +14,8 @@ print wg_nazwisko                 # ['Szpak', 'Nowak', 'Kowalski', 'Kos', 'Konst
 
 
 # Sortowanie wg wagi------------------------------------------------
-wg_waga = [waga['waga'] for waga in sorted(osoby, key=lambda o: o['nazwisko'])]
-print sorted(wg_waga)             # [30, 40, 70, 70, 80]
+wg_waga = [waga['waga'] for waga in sorted(osoby, key=lambda o: o['waga'])]
+print wg_waga                     # [30, 40, 70, 70, 80]
 
 wg_waga.sort(reverse=True)
 print wg_waga                     # [80, 70, 70, 40, 30]

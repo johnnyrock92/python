@@ -1,0 +1,1 @@
+print 'abc' < 'bac' < 'cba', 'abc' < 'cba' < 'bca'  # True False

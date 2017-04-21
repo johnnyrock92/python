@@ -1,6 +1,6 @@
 import sys
 
-sys.path.append(r'E:\Janusz\Documents\Dropbox\Studia\semestr_2\python\python\moduly\lib')
+sys.path.append(r'C:\lib')
 
 from modul import *
 

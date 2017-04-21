@@ -1,3 +1,7 @@
+import sys
+
+sys.path.append(r'E:\Janusz\Documents\Dropbox\Studia\semestr_2\python\python\moduly\lib')
+
 from modul import *
 
 print add(2,3)            # 5

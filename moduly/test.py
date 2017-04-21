@@ -1,3 +1,7 @@
+import sys
+
+sys.path.append(r'C:\lib')
+
 import modul
 
 print modul.add(2,3)            # 5
